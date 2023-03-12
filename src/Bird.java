@@ -18,11 +18,6 @@ public abstract class Bird extends Animal implements Fly, MakeSound{
         super(height, weight, eyesColor);
         this.flyingHeight = flyingHeight;
     }
-
-//    public Integer getFlyingHeight() {
-//        return flyingHeight;
-//    }
-
     @Override
     public String toString(){
         return super.toString() + "; Высота полёта: " + flyingHeight + " м";
