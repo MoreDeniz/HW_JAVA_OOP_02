@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Fly {
+public interface Fly {
+    void fly();
 }
