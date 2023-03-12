@@ -1,2 +1,3 @@
-public class Training {
+public interface Training {
+    void training();
 }
