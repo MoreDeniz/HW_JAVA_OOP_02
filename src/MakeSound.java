@@ -1,2 +1,3 @@
-public class MakeSound {
+public interface MakeSound {
+    void makeSound();
 }
